@@ -1,0 +1,18 @@
+CREATE TABLE coal_mines (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    name TEXT NOT NULL,
+    latitude REAL NOT NULL,
+    longitude REAL NOT NULL,
+    co2 INTEGER NOT NULL,
+    ch4 INTEGER NOT NULL,
+    image TEXT
+);
+
+INSERT INTO coal_mines (name, latitude, longitude, co2, ch4, image)
+VALUES 
+("Neyveli Mine-I", 11.6181, 79.4532, 150, 60, "images/neyveli1.jpg"),
+("Neyveli Mine-II", 11.6154, 79.4495, 140, 55, "images/neyveli2.jpg"),
+("Jayamkondam", 11.2111, 79.3600, 130, 45, "images/jayamkondam.jpg"),
+("Mannargudi", 10.6667, 79.4500, 125, 40, "images/mannargudi.jpg"),
+("Veeranam", 11.4682, 79.4516, 120, 38, "images/veeranam.jpg");
+

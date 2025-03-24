@@ -1,0 +1,10 @@
+Flask==3.0.0
+Flask-SQLAlchemy==3.1.1
+Werkzeug==3.0.1
+twilio==9.0.0
+python-dotenv==1.0.0
+requests==2.31.0
+pdfkit==1.0.0
+pandas==2.2.0
+google-generativeai==0.4.0
+Flask-Cors==4.0.0
